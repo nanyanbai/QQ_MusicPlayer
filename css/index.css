@@ -179,9 +179,9 @@ html,body{
 }
 
 .content_list li div{
-	color: #fff;
+	color: rgba(255,255,255,.5);
 	line-height: 50px;
-	opacity: 0.5;
+	/*opacity: 0.5;*/
 }
 
 .content_list .list_check{
@@ -195,10 +195,12 @@ html,body{
 	width: 14px;
 	height: 14px;
 	border: 1px solid #fff;
+	opacity: .5;
 }
 
 .list_check.list_checked i{
 	background:url(../images/icon_sprite.png) no-repeat -60px -80px;
+	opacity: 1;
 }
 
 .content_list .list_number{
@@ -221,6 +223,10 @@ html,body{
 	height: 36px;
 	background: url(../images/icon_list_menu.png) no-repeat 0 0;
 	vertical-align: middle;
+	opacity: .5;
+}
+.list_name  .list_menu .menu_item:hover{
+	opacity: 1;
 }
 .list_name  .list_menu .menu_item:nth-child(1){
 	background-position: -120px 0;
@@ -234,6 +240,11 @@ html,body{
 .list_name  .list_menu .menu_item:nth-child(4){
 	background-position: -120px -40px;
 }
+.list_name  .list_menu_play2{
+	background-position: -80px -200px !important;
+}
+
+
 .content_list .list_singer{
 	width: 20%;
 	height: 100%;
@@ -247,8 +258,11 @@ html,body{
 	margin-top: 7px;
 	float: left;
 	display: none;
+	opacity: .5;
 }
-
+.list_time a:hover{
+	opacity: 1;
+}
 .content .content_right{
 	width: 400px;
 	height: 100%;
@@ -484,6 +498,35 @@ html,body{
 	border-radius: 50%;
 	background: #fff;
 }
+
+
+.mask_bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/user.jpg) no-repeat 0 0;
+	background-size: cover;
+	z-index: -2;
+	filter: blur(100px);
+}
+
+.mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: rgba(0,0,0,.35)
+}
+
+
+
+
+
+
 
 /*设置插件 自定义滚动条的宽度*/
 /*.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{

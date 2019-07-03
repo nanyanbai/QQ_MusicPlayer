@@ -1,0 +1,32 @@
+[
+ 	{
+ 		"name":"老街",
+ 		"singer":"李荣浩",
+ 		"album":"老街",
+ 		"time":"05:18",
+ 		"link_url":"./scource/李荣浩 - 老街.mp3",
+ 		"cover":"./scource/老街.jpg",
+ 		"link_lrc":"./scource/老街.txt"
+ 	},
+ 	{
+ 		"name":"情一动心就痛",
+ 		"singer":"海生",
+ 		"album":"情一动心就痛",
+ 		"time":"04:47",
+ 		"link_url":"./scource/海生 - 情一动心就痛.mp3",
+ 		"cover":"./scource/情一动心就痛.jpg",
+ 		"link_lrc":"./scource/情一动心就痛.txt"
+ 	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
