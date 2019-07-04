@@ -207,6 +207,13 @@ html,body{
 	width: 20px;
 	height: 100%;
 }
+
+.content_list .list_number2{
+	color: transparent !important;
+	background: url("../images/wave.gif") no-repeat 0 center;
+}
+
+
 .content_list .list_name{
 	width: 50%;	
 	height: 100%;
@@ -266,6 +273,7 @@ html,body{
 .content .content_right{
 	width: 400px;
 	height: 100%;
+	user-select: none;
 }
 .content_right .song_info{
 	text-align: center; 
@@ -292,10 +300,15 @@ html,body{
 	opacity: 1;
 }
 
+.content_right  .song_lyric_container{
+	margin-top: 30px;
+	height:150px;
+	overflow: hidden;
+}
 .content_right .song_lyric{
 	text-align: center; 
-	margin-top: 30px;
 }
+
 .content_right .song_lyric li{
 	list-style: none;
 	line-height: 30px;
@@ -316,8 +329,9 @@ html,body{
 	right: 0;
 	bottom: 0;
 }
-.footer  .container{
+.footer  .container {
 	height: 100%;
+	user-select: none;
 }
 .footer a{
 	display: inline-block;
@@ -349,7 +363,7 @@ html,body{
 
 /*进度条*/
 .footer .music_progress_info{
-	width: 696px;
+	width: 670px;
 	height: 100%;
 }
 

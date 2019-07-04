@@ -42,6 +42,9 @@
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/lyric.js"></script>
     <script src="js/index.js"></script>
 
 </head>
@@ -96,14 +99,16 @@
                     <div class="song_info_singer">歌曲名：
                         <a href="javascript:;">Colbie Caillat</a>
                     </div>
-                    <div class="song_info_singer">专辑名：
+                    <div class="song_info_ablum">专辑名：
                         <a href="javascript:;">Colbie Caillat</a>
                     </div>
                 </div>
-                <ul class="song_lyric">
-                    <li class="curr">第一条歌词</li>
-                    <li>第二条歌词</li>
-                </ul>
+                <div class="song_lyric_container">
+                    <ul class="song_lyric">
+                        <!--<li class="curr">第一条歌词</li>
+                        <li>第二条歌词</li>-->
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -151,6 +156,6 @@
 
 <div class="mask_bg"></div>
 <div class="mask"></div>
-
+<audio src=""></audio>
 </body>
 </html>
